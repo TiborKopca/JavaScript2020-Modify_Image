@@ -9,13 +9,10 @@ Hay que crear una funcionalidad en Javascript, para cuando el usuario pulse enci
 
 var img = document.getElementById('img1')
 img.addEventListener('mouseover', function(){
-    // img.style.width = '70vh';
-    // img.style.marginTop = '-30px';
     img.style.transform = 'scale(1.5)';
     img.style.transition = 'all 1s linear';
 })
 img.addEventListener('mouseout', function(){
-    // img.style.width = '50vh';
-    // img.style.marginTop = '0px';
     img.style.transform = 'scale(1)';
 })
+
