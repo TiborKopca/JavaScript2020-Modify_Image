@@ -7,3 +7,5 @@ Hay que crear una funcionalidad en Javascript, para cuando el usuario pulse enci
 */
 'use strict'
 
+
+some code
